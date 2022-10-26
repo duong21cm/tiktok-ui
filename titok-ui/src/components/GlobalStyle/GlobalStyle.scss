@@ -1,7 +1,8 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400;1,500;1,700&display=swap');
 :root {
-    --primary:rgba(254, 44, 85, 1)
+    --primary:rgba(254, 44, 85, 1);
+    --text-color: #333;
 }
 *{
     margin: 0;
@@ -15,4 +16,13 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     text-rendering: optimizeSpeed;
+    color: var(--text-color);
+}
+button, input, [tabindex] {
+    outline: none;
+    border: none;
+}
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
 }
