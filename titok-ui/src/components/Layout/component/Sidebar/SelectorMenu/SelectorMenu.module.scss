@@ -1,0 +1,30 @@
+.menu-selector {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-menu {
+    display: inline-flex;
+    padding: 8px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    &:hover{
+        background-color: rgba(22,24,35,0.05);
+        cursor: pointer;
+    }
+}
+
+.icon-menu {
+    display: flex;
+ width: 32px;
+ height: 32px;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+}
+
+.title-menu {
+    line-height: 32px;
+    padding-left: 20px;
+}

@@ -34,7 +34,7 @@ function Button({
 
   return (
     <Comp
-      class={classes}
+      className={classes}
       {...prop}
     >
       {lefticon && <span className={cx('icon')}>{lefticon}</span>}
